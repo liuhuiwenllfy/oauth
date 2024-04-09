@@ -10,8 +10,6 @@ oauth2授权。
 
 ## 使用说明
 
-参考文档：https://blog.csdn.net/ACE_U_005A/article/details/128851814
-
 ---
 
 ## 作者信息
