@@ -1,0 +1,17 @@
+server:
+  port: 8081
+  servlet:
+    session:
+      cookie:
+        name: oauth-authorization-client-session
+oauth2-server-uri: http://localhost:8080
+security:
+  oauth2:
+    client:
+      client-id: client
+      client-secret: 112233
+      user-authorization-uri: ${oauth2-server-uri}/oauth/authorize
+      access-token-uri: ${oauth2-server-uri}/oauth/token
+    resource:
+      jwt:
+        key-uri: ${oauth2-server-uri}/oauth/token_key
